@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+}
+
+/* Neon glow utility */
+.neon {
+  text-shadow:
+    0 0 5px #38bdf8,
+    0 0 15px #38bdf8,
+    0 0 30px #38bdf8;
+}
